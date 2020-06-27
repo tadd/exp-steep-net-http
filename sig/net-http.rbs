@@ -1,0 +1,3 @@
+class Net::HTTP
+  def self.start: (String, Integer) { (instance) -> void } -> void
+end
