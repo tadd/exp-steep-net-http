@@ -1,0 +1,13 @@
+--- success.log	2020-06-27 15:24:55.415112914 +0900
++++ fail.log	2020-06-27 15:23:51.623116735 +0900
+@@ -807,6 +807,7 @@
+ [Steep 0.17.1] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] [synthesize:(1:1)] [synthesize:(1:1)] [(::String) -> bool] [::String <: ::String] result=Steep::Subtyping::Result::Success
+ [Steep 0.17.1] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] [synthesize:(1:1)] [synthesize:(3:1)] class
+ [Steep 0.17.1] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] [synthesize:(1:1)] [synthesize:(3:1)] [synthesize:(4:3)] def
+-[Steep 0.17.1] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] type checking 1 files took 0.023457556 seconds
+-[Steep 0.17.1] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] load signature and type check took 6.499966611 seconds
+-[Steep 0.17.1] No type error found
++[Steep 0.17.1] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] [synthesize:(1:1)] [synthesize:(3:1)] [synthesize:(4:3)] [synthesize:(6:5)] send
++[Steep 0.17.1] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] [synthesize:(1:1)] [synthesize:(3:1)] [synthesize:(4:3)] [synthesize:(6:5)] [synthesize:(6:5)] const
++[Steep 0.17.1] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] type checking 1 files took 0.010424531 seconds
++[Steep 0.17.1] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] load signature and type check took 6.561480807 seconds
