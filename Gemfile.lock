@@ -1,3 +1,16 @@
+GIT
+  remote: https://github.com/soutaro/steep.git
+  revision: 22d28ff0d704ab3c7a45b8c04417585bbd6a2689
+  specs:
+    steep (0.21.0)
+      activesupport (>= 5.1)
+      ast_utils (~> 0.3.0)
+      language_server-protocol (~> 3.14.0.2)
+      listen (~> 3.1)
+      parser (~> 2.7.0)
+      rainbow (>= 2.2.2, < 4.0)
+      rbs (~> 0.7.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -27,14 +40,6 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rbs (0.7.0)
-    steep (0.21.0)
-      activesupport (>= 5.1)
-      ast_utils (~> 0.3.0)
-      language_server-protocol (~> 3.14.0.2)
-      listen (~> 3.1)
-      parser (~> 2.7.0)
-      rainbow (>= 2.2.2, < 4.0)
-      rbs (~> 0.7.0)
     thor (1.0.1)
     thread_safe (0.3.6)
     tzinfo (1.2.7)
@@ -46,7 +51,7 @@ PLATFORMS
 
 DEPENDENCIES
   rbs
-  steep
+  steep!
 
 BUNDLED WITH
    2.1.4

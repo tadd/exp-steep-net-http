@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'steep'
+gem 'steep', github: 'soutaro/steep'
 gem 'rbs'
