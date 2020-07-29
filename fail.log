@@ -6752,5 +6752,6 @@
 [Steep 0.21.0] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] [synthesize:(1:1)] [synthesize:(3:1)] [synthesize:(4:3)] def
 [Steep 0.21.0] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] [synthesize:(1:1)] [synthesize:(3:1)] [synthesize:(4:3)] [synthesize:(6:5)] send
 [Steep 0.21.0] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] [synthesize:(1:1)] [synthesize:(3:1)] [synthesize:(4:3)] [synthesize:(6:5)] [synthesize:(6:5)] const
-[Steep 0.21.0] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] type checking 1 files took 0.009151197 seconds
-[Steep 0.21.0] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] load signature and type check took 1.24583108 seconds
+[Steep 0.21.0] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] type checking 1 files took 0.008406409 seconds
+[Steep 0.21.0] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] load signature and type check took 1.23104866 seconds
+[Steep 0.21.0] No type error found

@@ -1,13 +1,13 @@
---- success.log	2020-07-29 14:28:10.410663655 +0900
-+++ fail.log	2020-07-29 14:27:30.114556494 +0900
-@@ -6750,6 +6750,7 @@
+--- success.log	2020-07-29 14:40:27.456443588 +0900
++++ fail.log	2020-07-29 14:39:39.840325391 +0900
+@@ -6750,6 +6750,8 @@
  [Steep 0.21.0] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] [synthesize:(1:1)] [synthesize:(1:1)] [(::String) -> bool] [::String <: ::String] result=Steep::Subtyping::Result::Success
  [Steep 0.21.0] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] [synthesize:(1:1)] [synthesize:(3:1)] class
  [Steep 0.21.0] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] [synthesize:(1:1)] [synthesize:(3:1)] [synthesize:(4:3)] def
--[Steep 0.21.0] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] type checking 1 files took 0.008273484 seconds
--[Steep 0.21.0] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] load signature and type check took 1.234993979 seconds
--[Steep 0.21.0] No type error found
+-[Steep 0.21.0] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] type checking 1 files took 0.008227033 seconds
+-[Steep 0.21.0] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] load signature and type check took 1.229145903 seconds
 +[Steep 0.21.0] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] [synthesize:(1:1)] [synthesize:(3:1)] [synthesize:(4:3)] [synthesize:(6:5)] send
 +[Steep 0.21.0] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] [synthesize:(1:1)] [synthesize:(3:1)] [synthesize:(4:3)] [synthesize:(6:5)] [synthesize:(6:5)] const
-+[Steep 0.21.0] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] type checking 1 files took 0.009151197 seconds
-+[Steep 0.21.0] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] load signature and type check took 1.24583108 seconds
++[Steep 0.21.0] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] type checking 1 files took 0.008406409 seconds
++[Steep 0.21.0] [target=root] [target#type_check(target_sources: [app.rb], validate_signatures: true)] load signature and type check took 1.23104866 seconds
+ [Steep 0.21.0] No type error found
